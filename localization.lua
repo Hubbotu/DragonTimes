@@ -1,0 +1,35 @@
+if (GetLocale() == "ruRU") then
+	DgTimes.vars["localTbl"]["Times list"] = "Список времени";
+	DgTimes.vars["localTbl"]["Normal"] = "Обычный";
+	DgTimes.vars["localTbl"]["Advanced"] = "Продвинутый";
+	DgTimes.vars["localTbl"]["Reverse"] = "Обратный";
+	DgTimes.vars["localTbl"]["Challenge"] = "Испытание";
+	DgTimes.vars["localTbl"]["Chall. reverse"] = "Обратное испытание";
+	DgTimes.vars["localTbl"]["Only enabled races"] = "Доступные гонки";
+	DgTimes.vars["localTbl"]["Display available commands"] = "Показать доступные команды";
+	DgTimes.vars["localTbl"]["Available commands:"] = "Доступные команды:";
+	DgTimes.vars["localTbl"]["removed from times list."] = "удалено из списка времени.";
+	DgTimes.vars["localTbl"]["loaded"] = "загружено";
+	DgTimes.vars["localTbl"]["Remove times data for specified character"] = "Удалить данные времени для указанного персонажа";
+	DgTimes.vars["localTbl"]["times list reset."] = "список времени сброшен.";
+	DgTimes.vars["localTbl"]["Type /dragontimes to display times list, or define a keyboard shortcut."] = "Введите /dragontimes, чтобы показать список времени, или назначьте клавишу.";
+	DgTimes.vars["localTbl"]["The best time recorded for this race is "] = "Лучшее время, зарегистрированное для этой гонки: ";
+	DgTimes.vars["localTbl"]["Congratulations! This is the best time for this race of all your characters."] = "Поздравляем! Это лучшее время для этой гонки среди всех ваших персонажей.";
+	DgTimes.vars["localTbl"]["Click on a race to display the corresponding map waypoint."] = "Нажмите на гонку, чтобы показать её место на карте.";
+	DgTimes.vars["localTbl"]["Click on a zone name to filter races of corresponding zone."] = "Нажмите на название зоны, чтобы отфильтровать гонки в этой зоне.";
+	DgTimes.vars["localTbl"]["Click on a race type to display required times for the corresponding race."] = "Нажмите на тип гонки, чтобы показать требуемое время для этой гонки.";
+	DgTimes.vars["localTbl"]["Show race map waypoint."] = "Показать место гонки на карте.";
+	DgTimes.vars["localTbl"]["Logged player name cann't be removed. Log in with another character."] = "Имя текущего персонажа нельзя удалить. Войдите другим персонажем.";
+	DgTimes.vars["localTbl"]["Cann't create waypoint while in combat."] = "Невозможно создать метку в бою.";
+	DgTimes.vars["localTbl"]["Current character"] = "Текущий персонаж";
+	DgTimes.vars["localTbl"]["All zones"] = "Все зоны";
+	DgTimes.vars["localTbl"]["All Types"] = "Все типы";
+	DgTimes.vars["localTbl"]["Show seasonal races"] = "Показать сезонные гонки";
+	DgTimes.vars["localTbl"]["display current addon settings"] = "показать текущие настройки аддона";
+	DgTimes.vars["localTbl"]["Double-click to collapse/expand."] = "Двойной клик, чтобы свернуть/развернуть.";
+	DgTimes.vars["localTbl"]["Update"] = "Обновить";
+	DgTimes.vars["localTbl"]["Reset times data for *all* non-logged characters"] = "Сбросить данные времени для *всех* неподключенных персонажей";
+	DgTimes.vars["localTbl"]["Reset addon settings"] = "Сбросить настройки аддона";
+	DgTimes.vars["localTbl"]["not found in times list."] = "не найдено в списке времени.";
+	DgTimes.vars["localTbl"]["Use $KEY to display times list."] = "Используйте $KEY, чтобы показать список времени.";
+end
